@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3703E7F72A3DA389003BC52F /* RiterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E7F62A3DA389003BC52F /* RiterApp.swift */; };
+		3703E7F92A3DA389003BC52F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E7F82A3DA389003BC52F /* ContentView.swift */; };
+		3703E7FB2A3DA38A003BC52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3703E7FA2A3DA38A003BC52F /* Assets.xcassets */; };
+		3703E7FF2A3DA38A003BC52F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3703E7FE2A3DA38A003BC52F /* Preview Assets.xcassets */; };
+		3703E8092A3DA38A003BC52F /* RiterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E8082A3DA38A003BC52F /* RiterTests.swift */; };
+		3703E8132A3DA38A003BC52F /* RiterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E8122A3DA38A003BC52F /* RiterUITests.swift */; };
+		3703E8152A3DA38A003BC52F /* RiterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703E8142A3DA38A003BC52F /* RiterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3703E8052A3DA38A003BC52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3703E7EB2A3DA389003BC52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3703E7F22A3DA389003BC52F;
+			remoteInfo = Riter;
+		};
+		3703E80F2A3DA38A003BC52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3703E7EB2A3DA389003BC52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3703E7F22A3DA389003BC52F;
+			remoteInfo = Riter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3703E7F32A3DA389003BC52F /* Riter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3703E7F62A3DA389003BC52F /* RiterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiterApp.swift; sourceTree = "<group>"; };
+		3703E7F82A3DA389003BC52F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3703E7FA2A3DA38A003BC52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3703E7FC2A3DA38A003BC52F /* Riter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riter.entitlements; sourceTree = "<group>"; };
+		3703E7FE2A3DA38A003BC52F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3703E8042A3DA38A003BC52F /* RiterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3703E8082A3DA38A003BC52F /* RiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiterTests.swift; sourceTree = "<group>"; };
+		3703E80E2A3DA38A003BC52F /* RiterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3703E8122A3DA38A003BC52F /* RiterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiterUITests.swift; sourceTree = "<group>"; };
+		3703E8142A3DA38A003BC52F /* RiterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3703E7F02A3DA389003BC52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E8012A3DA38A003BC52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E80B2A3DA38A003BC52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3703E7EA2A3DA389003BC52F = {
+			isa = PBXGroup;
+			children = (
+				3703E7F52A3DA389003BC52F /* Riter */,
+				3703E8072A3DA38A003BC52F /* RiterTests */,
+				3703E8112A3DA38A003BC52F /* RiterUITests */,
+				3703E7F42A3DA389003BC52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3703E7F42A3DA389003BC52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3703E7F32A3DA389003BC52F /* Riter.app */,
+				3703E8042A3DA38A003BC52F /* RiterTests.xctest */,
+				3703E80E2A3DA38A003BC52F /* RiterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3703E7F52A3DA389003BC52F /* Riter */ = {
+			isa = PBXGroup;
+			children = (
+				3703E7F62A3DA389003BC52F /* RiterApp.swift */,
+				3703E7F82A3DA389003BC52F /* ContentView.swift */,
+				3703E7FA2A3DA38A003BC52F /* Assets.xcassets */,
+				3703E7FC2A3DA38A003BC52F /* Riter.entitlements */,
+				3703E7FD2A3DA38A003BC52F /* Preview Content */,
+			);
+			path = Riter;
+			sourceTree = "<group>";
+		};
+		3703E7FD2A3DA38A003BC52F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3703E7FE2A3DA38A003BC52F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3703E8072A3DA38A003BC52F /* RiterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3703E8082A3DA38A003BC52F /* RiterTests.swift */,
+			);
+			path = RiterTests;
+			sourceTree = "<group>";
+		};
+		3703E8112A3DA38A003BC52F /* RiterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3703E8122A3DA38A003BC52F /* RiterUITests.swift */,
+				3703E8142A3DA38A003BC52F /* RiterUITestsLaunchTests.swift */,
+			);
+			path = RiterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3703E7F22A3DA389003BC52F /* Riter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3703E8182A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "Riter" */;
+			buildPhases = (
+				3703E7EF2A3DA389003BC52F /* Sources */,
+				3703E7F02A3DA389003BC52F /* Frameworks */,
+				3703E7F12A3DA389003BC52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riter;
+			productName = Riter;
+			productReference = 3703E7F32A3DA389003BC52F /* Riter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3703E8032A3DA38A003BC52F /* RiterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3703E81B2A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "RiterTests" */;
+			buildPhases = (
+				3703E8002A3DA38A003BC52F /* Sources */,
+				3703E8012A3DA38A003BC52F /* Frameworks */,
+				3703E8022A3DA38A003BC52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3703E8062A3DA38A003BC52F /* PBXTargetDependency */,
+			);
+			name = RiterTests;
+			productName = RiterTests;
+			productReference = 3703E8042A3DA38A003BC52F /* RiterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3703E80D2A3DA38A003BC52F /* RiterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3703E81E2A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "RiterUITests" */;
+			buildPhases = (
+				3703E80A2A3DA38A003BC52F /* Sources */,
+				3703E80B2A3DA38A003BC52F /* Frameworks */,
+				3703E80C2A3DA38A003BC52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3703E8102A3DA38A003BC52F /* PBXTargetDependency */,
+			);
+			name = RiterUITests;
+			productName = RiterUITests;
+			productReference = 3703E80E2A3DA38A003BC52F /* RiterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3703E7EB2A3DA389003BC52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3703E7F22A3DA389003BC52F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3703E8032A3DA38A003BC52F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3703E7F22A3DA389003BC52F;
+					};
+					3703E80D2A3DA38A003BC52F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3703E7F22A3DA389003BC52F;
+					};
+				};
+			};
+			buildConfigurationList = 3703E7EE2A3DA389003BC52F /* Build configuration list for PBXProject "Riter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3703E7EA2A3DA389003BC52F;
+			productRefGroup = 3703E7F42A3DA389003BC52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3703E7F22A3DA389003BC52F /* Riter */,
+				3703E8032A3DA38A003BC52F /* RiterTests */,
+				3703E80D2A3DA38A003BC52F /* RiterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3703E7F12A3DA389003BC52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3703E7FF2A3DA38A003BC52F /* Preview Assets.xcassets in Resources */,
+				3703E7FB2A3DA38A003BC52F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E8022A3DA38A003BC52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E80C2A3DA38A003BC52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3703E7EF2A3DA389003BC52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3703E7F92A3DA389003BC52F /* ContentView.swift in Sources */,
+				3703E7F72A3DA389003BC52F /* RiterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E8002A3DA38A003BC52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3703E8092A3DA38A003BC52F /* RiterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3703E80A2A3DA38A003BC52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3703E8132A3DA38A003BC52F /* RiterUITests.swift in Sources */,
+				3703E8152A3DA38A003BC52F /* RiterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3703E8062A3DA38A003BC52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3703E7F22A3DA389003BC52F /* Riter */;
+			targetProxy = 3703E8052A3DA38A003BC52F /* PBXContainerItemProxy */;
+		};
+		3703E8102A3DA38A003BC52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3703E7F22A3DA389003BC52F /* Riter */;
+			targetProxy = 3703E80F2A3DA38A003BC52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3703E8162A3DA38A003BC52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3703E8172A3DA38A003BC52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3703E8192A3DA38A003BC52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Riter/Riter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Riter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.Riter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3703E81A2A3DA38A003BC52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Riter/Riter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Riter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.Riter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3703E81C2A3DA38A003BC52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.RiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riter";
+			};
+			name = Debug;
+		};
+		3703E81D2A3DA38A003BC52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.RiterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riter";
+			};
+			name = Release;
+		};
+		3703E81F2A3DA38A003BC52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.RiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riter;
+			};
+			name = Debug;
+		};
+		3703E8202A3DA38A003BC52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riter.RiterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3703E7EE2A3DA389003BC52F /* Build configuration list for PBXProject "Riter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3703E8162A3DA38A003BC52F /* Debug */,
+				3703E8172A3DA38A003BC52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3703E8182A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "Riter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3703E8192A3DA38A003BC52F /* Debug */,
+				3703E81A2A3DA38A003BC52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3703E81B2A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "RiterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3703E81C2A3DA38A003BC52F /* Debug */,
+				3703E81D2A3DA38A003BC52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3703E81E2A3DA38A003BC52F /* Build configuration list for PBXNativeTarget "RiterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3703E81F2A3DA38A003BC52F /* Debug */,
+				3703E8202A3DA38A003BC52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3703E7EB2A3DA389003BC52F /* Project object */;
+}
